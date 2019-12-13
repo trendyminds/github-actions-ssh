@@ -34,5 +34,6 @@ jobs:
           host: ${{secrets.SSH_HOSTNAME}}
           user: ${{secrets.SSH_USERNAME}}
           key: ${{secrets.SSH_PRIVATE_KEY}}
+          port: ${{secrets.SSH_PORT}}
           args: "-tt"
 ```
